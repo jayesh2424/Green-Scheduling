@@ -1,0 +1,42 @@
+{
+  "FCFS": {
+    "algorithm": "FCFS",
+    "total_energy_kwh": 0.00018906598600725545,
+    "tasks_executed": 20,
+    "avg_wait_time": 12.657055998810453,
+    "avg_turnaround_time": 15.644244488478222,
+    "co2_emissions_kg": 0.00013801816978529648
+  },
+  "SJF": {
+    "algorithm": "SJF",
+    "total_energy_kwh": 0.00018906598600725542,
+    "tasks_executed": 20,
+    "avg_wait_time": 3.9295594401765235,
+    "avg_turnaround_time": 6.916747929844297,
+    "co2_emissions_kg": 0.00013801816978529645
+  },
+  "RoundRobin": {
+    "algorithm": "RoundRobin",
+    "total_energy_kwh": 0.00018906598600725545,
+    "tasks_executed": 20,
+    "avg_wait_time": 12.657055998810453,
+    "avg_turnaround_time": 15.644244488478222,
+    "co2_emissions_kg": 0.00013801816978529648
+  },
+  "PriorityBased": {
+    "algorithm": "PriorityBased",
+    "total_energy_kwh": 0.00018906598600725548,
+    "tasks_executed": 20,
+    "avg_wait_time": 12.46344916733759,
+    "avg_turnaround_time": 15.450637657005363,
+    "co2_emissions_kg": 0.0001380181697852965
+  },
+  "EnergyOptimized": {
+    "algorithm": "EnergyOptimized",
+    "total_energy_kwh": 0.00018906598600725545,
+    "tasks_executed": 20,
+    "avg_wait_time": 10.226922848434068,
+    "avg_turnaround_time": 13.214111338101835,
+    "co2_emissions_kg": 0.00013801816978529648
+  }
+}
