@@ -1,7 +1,7 @@
 # Green Scheduling Algorithm ♻️
 
 Energy-aware task scheduling simulator built in Python for macOS (Apple Silicon).  
-This project compares classic CPU scheduling algorithms against a custom “Green” scheduler that minimizes energy consumption and estimated CO₂ emissions using a simple power model and Indian grid emission factors. [web:27][web:32]
+This project compares classic CPU scheduling algorithms against a custom “Green” scheduler that minimizes energy consumption and estimated CO₂ emissions using a simple power model and Indian grid emission factors.
 
 ---
 
@@ -49,7 +49,7 @@ It implements and compares:
 ---
 
 ## 🗂 Project Structure
-Green-Scheduling/
+`Green-Scheduling/
 ├── config.py # Simulation & system configuration
 ├── scheduler.py # Task and TaskQueue definitions
 ├── energy_monitor.py # Power, energy, CO₂ and cost calculations
@@ -59,7 +59,7 @@ Green-Scheduling/
 ├── main.py # Entry point (CLI)
 ├── data/ # (Optional) For future extensions
 ├── results/ # Generated charts, CSV & JSON
-└── logs/ # (Optional) For logging
+└── logs/ # (Optional) For logging`
 
 ---
 
