@@ -46,20 +46,6 @@ It implements and compares:
   - `04_results_summary.csv` – Tabular metrics
   - `simulation_results.json` – Raw JSON metrics
 
----
-
-## 🗂 Project Structure
-`Green-Scheduling/
-├── config.py # Simulation & system configuration
-├── scheduler.py # Task and TaskQueue definitions
-├── energy_monitor.py # Power, energy, CO₂ and cost calculations
-├── algorithm.py # FCFS, SJF, Priority, RR, EnergyOptimized
-├── simulation.py # Core simulation engine
-├── visualization.py # Matplotlib & pandas visualizations
-├── main.py # Entry point (CLI)
-├── data/ # (Optional) For future extensions
-├── results/ # Generated charts, CSV & JSON
-└── logs/ # (Optional) For logging`
 
 ---
 
